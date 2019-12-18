@@ -14,3 +14,4 @@ This is done in two steps:
               
 	  - Clustering. By the definition of the problem, we have two clusters - "skin" and "not skin". The fuzzy C means algorithm provides better control over the forming of clusters. For each pixel, it assigns a cluster score which gives the probability of the pixel belonging to that cluster. Thresholding over these scores gives the final binary mask for skin segmentation.
 	  
+The file SkinSegmentation.py contains all the functions for the above. It can be run directly to see demo results, or can be imported for your own testing and application.
